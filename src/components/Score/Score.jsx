@@ -1,9 +1,9 @@
-import Student from "../Student/Student";
-
 const Score = (props) => {
   return ( 
-    <>
-        <h4>{props.score.scores}</h4>     
+    <> 
+      <h4>Scores:</h4> 
+      <h4>{props.score.date}</h4>  
+      <h4>{props.score.score}</h4>  
     </>
   );
 }

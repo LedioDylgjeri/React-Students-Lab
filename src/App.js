@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Student from './components/Student/Student';
 
@@ -64,11 +63,11 @@ function App() {
     }
   ]
   return (
-  <>
-    {students.map(student => 
-      <Student key={student.name} student={student}/>
+    <>
+      {students.map(student =>
+      <Student key={student.name} student={student} />  
     )}
-  </>
+    </>
   );
 }
 
